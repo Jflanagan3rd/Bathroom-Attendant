@@ -14,14 +14,16 @@ public class Item_Instantiator : MonoBehaviour
     [SerializeField] AudioSource TP_SFX;
 
     public bool busy;
+
+    Interactor interactor;
     void Start()
     {
-        
+        interactor = FindAnyObjectByType<Interactor>();   
     }
 
     void Update()
     {
-        if (!busy)
+        if (!interactor.interactorBUSY)
         {
             if (Input.GetMouseButtonDown(1) && !coolDown)
             {
