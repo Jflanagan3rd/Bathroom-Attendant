@@ -20082,6 +20082,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: de1e27d6644f08941b0919dddad7834e, type: 2}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: SprintSpeed
+      value: 11.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: GroundLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
@@ -20171,6 +20175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractorSource: {fileID: 875453151183127703}
   InteractRange: 26.84
+  interactorBUSY: 0
 --- !u!114 &734400953893339101
 MonoBehaviour:
   m_ObjectHideFlags: 0
